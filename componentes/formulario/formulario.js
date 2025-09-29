@@ -65,5 +65,5 @@ export function formulario() {
     section.appendChild(btnAgregar);
     section.appendChild(lista);
 
-    return section;
+    return formulario;
 }

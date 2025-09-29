@@ -3,10 +3,10 @@ export function obtenerTareas() {
     header.className = "header";
 
     let titulo = document.createElement("h1");
-    titulo.textContent = "<Lista-de-Tareas>";
+    titulo.textContent = "Lista-de-Tareas";
 
 
     header.appendChild(titulo);
 
-    return header;
+    return tareas;
 }
